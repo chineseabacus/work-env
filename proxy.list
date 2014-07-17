@@ -1,0 +1,15 @@
+; Summary: Proxy Switchy! Rule List
+; Author : Amio (amio.cn@gmail.com)
+; Website: http://github.com/amio/otwlist
+
+#BEGIN
+
+[regexp]
+(plus\.google|groups\.google|drive\.google|docs\.google|code\.google|mail\.google)\.
+(wordpress\.com|blogspot\.com|slideshare)\.
+#(youtube|googlevideo|ytimg|blogspot|blogger|feedproxy|appspot)\.
+#(facebook|fbcdn|twitter|dl\.dropbox|vimeo|vimeocdn|thepiratebay|pinimg)\.
+#(cloudfront|uploaded|nytimes|bbc\.co|wikipedia|wikimedia|imgur|mobile01)\.
+#(t\.co\/|bit\.ly|ow\.ly|j\.mp|wordpress\.com|youtu\.be|cl\.man\.lv)
+#(ssl|digg|feedburner|feedly|sstatic|slideshare)\.
+#END
